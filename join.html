@@ -25,13 +25,83 @@
         </li>
       </ul>
     </nav>
-    <header class="header__join">
-      <div class="header__join-container">
-        <h1 class="header__join-title">Be brave, join the journey!</h1>
-        <p class="header__join-paragraph">
-          Be one of the next heroes in space
+
+    <main>
+      <header class="header__join">
+        <div class="header__join-container">
+          <h1 class="header__join-title">Be brave, join the journey!</h1>
+          <p class="header__join-paragraph">
+            Be one of the next heroes in space
+          </p>
+        </div>
+      </header>
+
+      <section class="join-section">
+        <div class="join-section__container">
+          <h2 class="join-section__title">Join us in the mission</h2>
+          <p class="join-section__paragraph">
+            Be part of the mission. Send us your motivation of why just you
+            should be the next space traveler
+          </p>
+        </div>
+
+        <div class="join__form-container">
+          <form
+            action="https://formspree.io/mqkkdakr"
+            class="join-form"
+            method="POST"
+          >
+            <label for="firstname" class="label">First name</label><br />
+            <input
+              type="text"
+              name="first name"
+              id="firstname"
+              placeholder="Han Solo"
+              required
+            /><br />
+            <label for="lastname" name="last name" class="label"
+              >Last name</label
+            ><br />
+            <input type="text" id="lastname" required /><br />
+            <label for="dateofbirth" class="label">Date of birth</label><br />
+            <input
+              type="text"
+              name=" date of birth"
+              id="dateofbirth"
+              required
+            /><br />
+            <label for="professional" class="label">Proffesional</label><br />
+            <input
+              type="text"
+              name="professional"
+              id="professional"
+              required
+            /><br />
+            <label for="skill" class="label">Prime skill</label><br />
+            <input type="text" name="prime skill" id="skill" required /><br />
+            <label for="motivation" class="label">Motivation</label><br />
+            <textarea
+              name="text message"
+              id="motivation"
+              cols="30"
+              rows="5"
+              required
+            ></textarea
+            ><br />
+            <button type="submit" class="join-form__btn">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <h4 class="footer-head">Mars One</h4>
+        <p class="footer-paragraph">
+          This site is made for educational purpose and is based on the real
+          <strong class="strong-text">Mars One</strong> project.
         </p>
       </div>
-    </header>
+    </footer>
   </body>
 </html>
