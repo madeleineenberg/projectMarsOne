@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700,800|Poppins:400,700&display=swap");
 .top-nav {
+  min-width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,6 +86,82 @@
   .top-nav__link--active {
     font-size: 16px;
     margin: 20px;
+  }
+}
+
+.header__home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("https://via.placeholder.com/150");
+  min-width: 100vw;
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.header__home-oval {
+  width: 1440px;
+  height: 604px;
+  -webkit-transform: rotate(12deg);
+          transform: rotate(12deg);
+  background-image: linear-gradient(182deg, #00132c 61%, rgba(21, 52, 98, 0.9) -13%);
+}
+
+.header__home-container {
+  width: 100%;
+  padding: 0 10% 0 15%;
+  margin-top: 150px;
+}
+
+@media (min-width: 500px) {
+  .header__home-container {
+    padding: 0 15% 0 45%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header__home-container {
+    padding: 0 10% 0 60%;
+  }
+}
+
+.header__home-title {
+  border-bottom: 6px solid white;
+  font-size: 40px;
+}
+
+@media (min-width: 700px) {
+  .header__home-title {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header__home-title {
+    font-size: 60px;
+  }
+}
+
+.header__home-paragraph {
+  font-size: 20px;
+}
+
+@media (min-width: 700px) {
+  .header__home-paragraph {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header__home-paragraph {
+    font-size: 40px;
   }
 }
 

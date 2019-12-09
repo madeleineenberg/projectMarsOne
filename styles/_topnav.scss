@@ -1,6 +1,7 @@
-@import "./mixins/mixins";
+// @import "./mixins/mixins";
 
 .top-nav {
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   background: gray;
