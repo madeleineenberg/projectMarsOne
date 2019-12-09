@@ -1,0 +1,14 @@
+@import "./variables/variables";
+@import "./mixins/mixins";
+@import "./topnav";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $font-main;
+}
+
+main {
+  max-width: 100%;
+}

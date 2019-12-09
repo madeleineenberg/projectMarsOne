@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="29px" viewBox="0 0 49 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" transform="translate(-4.000000, -5.000000)">
+            <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="60" height="37"></rect>
+            <g id="O" transform="translate(3.000000, 7.000000)" fill="#E32700" font-family="Helvetica" font-size="25.5000007" font-weight="normal">
+                <text>
+                    <tspan x="0" y="25.1000006">O</tspan>
+                </text>
+            </g>
+            <g id="O" transform="translate(3.000000, 5.000000)" fill="#061B38" font-family="Helvetica" font-size="25.5000007" font-weight="normal">
+                <text>
+                    <tspan x="0" y="25.4000006">O</tspan>
+                </text>
+            </g>
+            <g id="MARS" transform="translate(11.000000, 4.000000)" fill="#F1F1F1" font-family="Helvetica" font-size="6" font-weight="normal">
+                <text>
+                    <tspan x="0.251666" y="6">MARS</tspan>
+                </text>
+            </g>
+            <g id="ne" transform="translate(25.000000, 5.000000)" fill="#E32700" font-family="Helvetica" font-size="25.5000007" font-weight="normal">
+                <text>
+                    <tspan x="0.1000006" y="25.4000006">ne</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
