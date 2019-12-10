@@ -1,15 +1,18 @@
 @import "./variables/variables";
 @import "./mixins/mixins";
+@import "./main";
+@import "./footer";
+
+// INDEX
 @import "./topnav";
-@import "./header";
+@import "./partials-home/header";
+@import "./partials-home/topsection";
+@import "./partials-home/aboutmars";
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: $font-main;
-}
+// FAQ
 
-main {
-  max-width: 100%;
-}
+@import "./partials-faq/header-faq";
+
+// JOIN
+
+@import "./partials-join/header-join";

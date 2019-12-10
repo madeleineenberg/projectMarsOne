@@ -1,0 +1,36 @@
+.footer {
+  min-height: 200px;
+  background: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  @media (min-width: 700px) {
+    min-height: 320px;
+  }
+}
+.footer-container {
+  padding: 0% 5% 0% 5%;
+}
+.footer-head {
+  font-size: 20px;
+  color: #ffffff;
+  padding-bottom: 10px;
+  font-family: $font-footer;
+  font-weight: 700;
+
+  @media (min-width: 700px) {
+    font-size: 30px;
+  }
+}
+
+.footer-paragraph {
+  font-size: 10px;
+  color: #ffffff;
+  font-family: $font-footer;
+
+  @media (min-width: 700px) {
+    font-size: 12px;
+  }
+}

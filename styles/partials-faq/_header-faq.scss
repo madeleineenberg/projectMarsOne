@@ -1,7 +1,4 @@
-// @import "./variables/variables";
-// @import "./mixins/mixins";
-
-.header__home {
+.header__faq {
   display: flex;
   flex-direction: column;
   background-image: url("https://via.placeholder.com/150");
@@ -10,20 +7,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: 1;
 }
 
-// .header__home-oval {
-//   width: 1440px;
-//   height: 604px;
-//   transform: rotate(12deg);
-//   background-image: linear-gradient(
-//     182deg,
-//     #00132c 61%,
-//     rgba(21, 52, 98, 0.9) -13%
-//   );
-// }
-.header__home-container {
+.header__faq-container {
   width: 100%;
   padding: 0 10% 0 15%;
   margin-top: 150px;
@@ -33,11 +19,12 @@
   }
 
   @media (min-width: 1000px) {
-    padding: 0 10% 0 60%;
+    padding: 0 10% 0 55%;
+    margin-top: 200px;
   }
 }
 
-.header__home-title {
+.header__faq-title {
   border-bottom: 6px solid white;
   font-size: 40px;
 
@@ -50,7 +37,7 @@
   }
 }
 
-.header__home-paragraph {
+.header__faq-paragraph {
   font-size: 20px;
 
   @media (min-width: 700px) {
