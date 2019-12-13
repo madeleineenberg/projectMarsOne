@@ -1,0 +1,126 @@
+.join__form-container {
+  background: #ffffff;
+  padding: 10%;
+  @include box-shadow;
+  margin: 0 10px;
+
+  @media (min-width: 1000px) {
+    padding: 5%;
+  }
+}
+
+form {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr;
+  font-family: $font-main;
+  font-weight: bold;
+  grid-column-gap: 50px;
+
+  @media (min-width: 700px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 100px);
+  }
+
+  @media (min-width: 1000px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.label {
+  margin-top: 30px;
+  font-size: 12px;
+  color: $color-complement-1;
+
+  &-professional {
+    @media (min-width: 700px) {
+      grid-row: 2;
+    }
+  }
+
+  &-skill {
+    @media (min-width: 700px) {
+      grid-column: 1;
+      grid-row: 3;
+    }
+    @media (min-width: 1000px) {
+      grid-column: 2;
+      grid-row: 2;
+    }
+  }
+
+  &-lastname {
+    @media (min-width: 700px) {
+      grid-column: 2;
+      grid-row: 1;
+    }
+  }
+
+  &-date {
+    @media (min-width: 700px) {
+      grid-column: 2;
+      grid-row: 2;
+    }
+    @media (min-width: 1000px) {
+      grid-column: 3;
+      grid-row: 1;
+    }
+  }
+
+  &-motivation {
+    @media (min-width: 700px) {
+      grid-row: 4 / span 2;
+      grid-column: span 2;
+    }
+    @media (min-width: 1000px) {
+      grid-column: span 3;
+      grid-row: 3 / span 3;
+    }
+  }
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid $color-complement-1;
+  min-height: 35px;
+  width: 250px;
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 10px;
+
+  @media (min-width: 1000px) {
+    width: 100%;
+  }
+}
+
+textarea {
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid $color-complement-1;
+  font-size: 12px;
+  margin-top: 10px;
+
+  @media (min-width: 700px) {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.join-form__btn {
+  @extend .read-more-btn;
+  width: 100px;
+  margin-top: 20px;
+  place-self: center;
+  padding: 10px;
+  color: $color-complement-1;
+  cursor: pointer;
+
+  @media (min-width: 700px) {
+    grid-column: span 2;
+    grid-row: 6;
+  }
+  @media (min-width: 1000px) {
+    grid-column: span 3;
+    margin-top: 60px;
+  }
+}

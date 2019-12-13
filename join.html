@@ -51,42 +51,50 @@
             class="join-form"
             method="POST"
           >
-            <label for="firstname" class="label">First name</label><br />
-            <input
-              type="text"
-              name="first name"
-              id="firstname"
-              placeholder="Han Solo"
-              required
-            /><br />
-            <label for="lastname" name="last name" class="label"
-              >Last name</label
+            <label for="firstname" class="label label-firstname"
+              >First name<br />
+              <input
+                type="text"
+                name="first name"
+                id="firstname"
+                placeholder="Han Solo"
+                required/></label
             ><br />
-            <input type="text" id="lastname" required /><br />
-            <label for="dateofbirth" class="label">Date of birth</label><br />
-            <input
-              type="text"
-              name=" date of birth"
-              id="dateofbirth"
-              required
-            /><br />
-            <label for="professional" class="label">Proffesional</label><br />
-            <input
-              type="text"
-              name="professional"
-              id="professional"
-              required
-            /><br />
-            <label for="skill" class="label">Prime skill</label><br />
-            <input type="text" name="prime skill" id="skill" required /><br />
-            <label for="motivation" class="label">Motivation</label><br />
-            <textarea
-              name="text message"
-              id="motivation"
-              cols="30"
-              rows="5"
-              required
-            ></textarea
+
+            <label for="lastname" name="last name" class="label label-lastname"
+              >Last name
+              <br />
+              <input type="text" id="lastname" required/></label
+            ><br />
+            <label for="dateofbirth" class="label label-date"
+              >Date of birth<br />
+              <input
+                type="date"
+                name=" date of birth"
+                id="dateofbirth"
+                required/></label
+            ><br />
+            <label for="professional" class="label label-professional"
+              >Proffesional<br />
+              <input
+                type="text"
+                name="professional"
+                id="professional"
+                required/></label
+            ><br />
+            <label for="skill" class="label label-skill"
+              >Prime skill<br />
+              <input type="text" name="prime skill" id="skill" required/></label
+            ><br />
+            <label for="motivation" class="label label-motivation"
+              >Motivation<br />
+              <textarea
+                name="text message"
+                id="motivation"
+                cols="30"
+                rows="10"
+                required
+              ></textarea></label
             ><br />
             <button type="submit" class="join-form__btn">Submit</button>
           </form>
