@@ -8,9 +8,11 @@
     <title>FAQ</title>
   </head>
   <body>
+    
+      <header class="header__faq">
     <nav class="top-nav">
       <div class="top-nav__logo-wrapper">
-        <img src="./images/logo.svg" alt="logo" class="top-nav__logo" />
+        <img src="./images/mars-one-logo-transparent.svg" alt="logo" class="top-nav__logo" />
       </div>
       <ul class="top-nav__menu">
         <li class="top-nav__menu-item">
@@ -25,8 +27,6 @@
       </ul>
     </nav>
 
-    <main>
-      <header class="header__faq">
         <div class="header__faq-container">
           <h1 class="header__faq-title">Our next home</h1>
           <p class="header__faq-paragraph">
@@ -35,6 +35,8 @@
         </div>
       </header>
 
+
+      <main>
       <section class="questions">
         <h2 class="questions__title">FAQ</h2>
 
@@ -51,7 +53,7 @@
                 seek new frontiers to explore.
               </p>
               <br />
-              <p class="questions__article-paragraph">
+              <p class="questions__article-paragraph hide-article1">
                 Sending a manned mission to Mars is a fantastic adventure.
                 Imagine living on another planet, millions of miles from the
                 Earth; looking up into the sky with the knowledge that one of
@@ -66,8 +68,8 @@
                 first astronauts land on Mars will be our moment to remember.
               </p>
               <br />
-
-              <p class="questions__article-paragraph">
+              <button class="questions__read-more-btn">Read more</button>
+              <p class="questions__article-paragraph hide-article1">
                 A second reason is good, old-fashioned curiosity. Where did Mars
                 come from? Can it teach us about Earth's history? Is there life
                 on Mars? These are just three of the hundreds of burning
@@ -107,7 +109,7 @@
           <article class="questions__article3">
             <div class="questions__article3-img-wrapper">
               <img
-                src="https://via.placeholder.com/150"
+                src="./images/faq/nicolas-lobos-NR_tXTuyTak-unsplash copy 4.jpg"
                 alt="astronaut"
                 class="questions__article3-img"
               />
@@ -127,11 +129,18 @@
       <section class="questions-travel">
         <article class="questions__article4">
           <div class="questions__article4-img-wrapper">
-            <img
-              src="https://via.placeholder.com/150"
-              alt="solar system"
-              class="questions__article4-img"
-            />
+
+              <div class="questions__article4-img-wrapper-1">
+                <img src="./images/faq/mars.png" alt="solar system, mars" class="questions__article-img-mars"></div>
+                <div class="questions__article4-img-wrapper-2">
+                <img src="./images/faq/sun.png"
+              alt="solar system, sun"
+              class="questions__article4-img-sun"
+            /></div>
+            <div class="questions__article4-img-wrapper-3">
+            <img src="./images/faq/earth.png" alt="solar system, earth" class="questions__article-img-earth">
+            </div>
+
           </div>
           <div class="questions__article4-container">
             <h3 class="questions__article-title">
@@ -158,7 +167,7 @@
         <h4 class="footer-head">Mars One</h4>
         <p class="footer-paragraph">
           This site is made for educational purpose and is based on the real
-          <strong class="strong-text">Mars One</strong> project.
+          <strong class="strong-text-2">Mars One</strong> project.
         </p>
       </div>
     </footer>

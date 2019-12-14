@@ -22,15 +22,15 @@
 }
 
 .questions__article4-img {
-  @include responsive-image;
-  position: absolute;
-  min-height: 290px;
-  min-width: 290px;
-
   &-wrapper {
     @include responsive-wrapper;
     min-height: 290px;
     min-width: 290px;
+    background-image: radial-gradient(circle at 50% 39%, #072142, #00132c 101%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
     @media (min-width: 700px) {
       min-height: 700px;
@@ -45,4 +45,21 @@
 
 .questions__article4-container {
   padding: 5% 10% 15% 10%;
+}
+
+.questions__article-img-mars {
+  @include responsive-image;
+  position: absolute;
+}
+
+.questions__article-img-earth {
+  @include responsive-image;
+  position: absolute;
+}
+
+.questions__article4-img-wrapper-1,
+.questions__article4-img-wrapper-3 {
+  position: relative;
+  min-height: 50px;
+  min-width: 50px;
 }

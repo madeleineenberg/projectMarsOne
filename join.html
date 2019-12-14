@@ -9,33 +9,37 @@
   </head>
 
   <body>
-    <nav class="top-nav">
-      <div class="top-nav__logo-wrapper">
-        <img src="./images/logo.svg" alt="logo" class="top-nav__logo" />
+    <header class="header__join">
+      <nav class="top-nav">
+        <div class="top-nav__logo-wrapper">
+          <img
+            src="./images/mars-one-logo-transparent.svg"
+            alt="logo"
+            class="top-nav__logo"
+          />
+        </div>
+        <ul class="top-nav__menu">
+          <li class="top-nav__menu-item">
+            <a class="top-nav__link" href="index.html">Mars One</a>
+          </li>
+          <li class="top-nav__menu-item">
+            <a class="top-nav__link" href="faq.html">FAQ</a>
+          </li>
+          <li class="top-nav__menu-item">
+            <a class="top-nav__link--active" href="join.html">Join the Crew</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__join-container">
+        <h1 class="header__join-title">Be brave, join the journey!</h1>
+        <p class="header__join-paragraph">
+          Be one of the next heroes in space
+        </p>
       </div>
-      <ul class="top-nav__menu">
-        <li class="top-nav__menu-item">
-          <a class="top-nav__link" href="index.html">Mars One</a>
-        </li>
-        <li class="top-nav__menu-item">
-          <a class="top-nav__link" href="faq.html">FAQ</a>
-        </li>
-        <li class="top-nav__menu-item">
-          <a class="top-nav__link--active" href="join.html">Join the Crew</a>
-        </li>
-      </ul>
-    </nav>
+    </header>
 
     <main>
-      <header class="header__join">
-        <div class="header__join-container">
-          <h1 class="header__join-title">Be brave, join the journey!</h1>
-          <p class="header__join-paragraph">
-            Be one of the next heroes in space
-          </p>
-        </div>
-      </header>
-
       <section class="join-section">
         <div class="join-section__container">
           <h2 class="join-section__title">Join us in the mission</h2>
@@ -58,44 +62,36 @@
                 name="first name"
                 id="firstname"
                 placeholder="Han Solo"
-                required/></label
-            ><br />
+                required
+            /></label>
 
             <label for="lastname" name="last name" class="label label-lastname"
               >Last name
               <br />
-              <input type="text" id="lastname" required/></label
-            ><br />
+              <input type="text" id="lastname" required
+            /></label>
             <label for="dateofbirth" class="label label-date"
               >Date of birth<br />
-              <input
-                type="date"
-                name=" date of birth"
-                id="dateofbirth"
-                required/></label
-            ><br />
+              <input type="date" name=" date of birth" id="dateofbirth" required
+            /></label>
             <label for="professional" class="label label-professional"
               >Proffesional<br />
-              <input
-                type="text"
-                name="professional"
-                id="professional"
-                required/></label
-            ><br />
+              <input type="text" name="professional" id="professional" required
+            /></label>
             <label for="skill" class="label label-skill"
               >Prime skill<br />
-              <input type="text" name="prime skill" id="skill" required/></label
-            ><br />
+              <input type="text" name="prime skill" id="skill" required
+            /></label>
             <label for="motivation" class="label label-motivation"
               >Motivation<br />
               <textarea
                 name="text message"
                 id="motivation"
                 cols="30"
-                rows="10"
+                rows="15"
                 required
-              ></textarea></label
-            ><br />
+              ></textarea
+            ></label>
             <button type="submit" class="join-form__btn">Submit</button>
           </form>
         </div>
@@ -107,7 +103,7 @@
         <h4 class="footer-head">Mars One</h4>
         <p class="footer-paragraph">
           This site is made for educational purpose and is based on the real
-          <strong class="strong-text">Mars One</strong> project.
+          <strong class="strong-text-2">Mars One</strong> project.
         </p>
       </div>
     </footer>

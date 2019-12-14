@@ -1,10 +1,8 @@
-// @import "./mixins/mixins";
-
 .top-nav {
   min-width: 100vw;
   display: flex;
   flex-direction: column;
-  background: gray;
+  background: $background-nav-dark;
   align-items: center;
   padding: 20px 0;
 
@@ -16,16 +14,19 @@
   &__logo-wrapper {
     max-width: 100%;
     max-height: 100%;
-    padding: 20px 10px;
+    padding-bottom: 10px;
 
     @media (min-width: 700px) {
       margin-right: auto;
-      padding: 10px;
+      margin-left: 10px;
+      padding: 0;
     }
   }
 
   &__logo {
-    @include responsive-image;
+    width: 70px;
+    height: 45px;
+    object-fit: contain;
   }
 
   &__menu {
@@ -36,7 +37,7 @@
 
 .top-nav__link {
   text-decoration: none;
-  margin: 15px;
+  margin: 10px;
   text-align: center;
   color: white;
   font-weight: bold;
@@ -52,7 +53,7 @@
     text-decoration: none;
     border-bottom: 2px solid red;
     padding: 0;
-    margin: 15px;
+    margin: 10px;
     color: white;
     font-weight: bold;
     font-size: 14px;

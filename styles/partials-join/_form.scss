@@ -12,14 +12,13 @@
 form {
   display: grid;
   grid-auto-flow: row;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
   font-family: $font-main;
   font-weight: bold;
   grid-column-gap: 50px;
 
   @media (min-width: 700px) {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(6, 100px);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @media (min-width: 1000px) {
@@ -28,53 +27,23 @@ form {
 }
 
 .label {
-  margin-top: 30px;
+  padding-top: 30px;
   font-size: 12px;
   color: $color-complement-1;
 
-  &-professional {
-    @media (min-width: 700px) {
-      grid-row: 2;
-    }
-  }
-
-  &-skill {
-    @media (min-width: 700px) {
-      grid-column: 1;
-      grid-row: 3;
-    }
-    @media (min-width: 1000px) {
-      grid-column: 2;
-      grid-row: 2;
-    }
-  }
-
-  &-lastname {
-    @media (min-width: 700px) {
-      grid-column: 2;
-      grid-row: 1;
-    }
-  }
-
-  &-date {
-    @media (min-width: 700px) {
-      grid-column: 2;
-      grid-row: 2;
-    }
-    @media (min-width: 1000px) {
-      grid-column: 3;
-      grid-row: 1;
-    }
+  @media (min-width: 700px) {
+    padding-bottom: 20px;
   }
 
   &-motivation {
     @media (min-width: 700px) {
-      grid-row: 4 / span 2;
+      grid-row: 5 / span 2;
       grid-column: span 2;
     }
+
     @media (min-width: 1000px) {
+      grid-row: span 3;
       grid-column: span 3;
-      grid-row: 3 / span 3;
     }
   }
 }
@@ -109,7 +78,7 @@ textarea {
 .join-form__btn {
   @extend .read-more-btn;
   width: 100px;
-  margin-top: 20px;
+  margin-top: 50px;
   place-self: center;
   padding: 10px;
   color: $color-complement-1;
@@ -117,7 +86,7 @@ textarea {
 
   @media (min-width: 700px) {
     grid-column: span 2;
-    grid-row: 6;
+    grid-row: 8;
   }
   @media (min-width: 1000px) {
     grid-column: span 3;

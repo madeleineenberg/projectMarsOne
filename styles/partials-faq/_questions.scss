@@ -5,6 +5,7 @@
     text-align: center;
     font-size: 26px;
     padding: 60px 0 30px 0;
+    color: $color-complement-1;
 
     @media (min-width: 700px) {
       font-size: 36px;
@@ -39,6 +40,7 @@
   padding-top: 30px;
   padding-bottom: 20px;
   font-size: 20px;
+  color: $color-title-main;
 
   @media (min-width: 700px) {
     font-size: 24px;
@@ -71,6 +73,23 @@
     grid-column: 1;
     grid-row: 1 / span 2;
     margin: 0;
+  }
+}
+
+.questions__read-more-btn {
+  @extend .read-more-btn;
+  display: block;
+  cursor: pointer;
+
+  @media (min-width: 700px) {
+    display: none;
+  }
+}
+
+.hide-article1 {
+  display: none;
+  @media (min-width: 700px) {
+    display: block;
   }
 }
 
