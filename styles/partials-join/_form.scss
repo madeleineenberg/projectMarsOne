@@ -3,6 +3,7 @@
   padding: 10%;
   @include box-shadow;
   margin: 0 10px;
+  transition: linear 500ms;
 
   @media (min-width: 1000px) {
     padding: 5%;
@@ -16,6 +17,7 @@ form {
   font-family: $font-main;
   font-weight: bold;
   grid-column-gap: 50px;
+  transition: linear 500ms;
 
   @media (min-width: 700px) {
     grid-template-columns: repeat(2, 1fr);
@@ -56,6 +58,7 @@ input {
   font-size: 12px;
   margin-top: 10px;
   padding: 10px;
+  transition: linear 300ms;
 
   @media (min-width: 1000px) {
     width: 100%;
@@ -68,6 +71,7 @@ textarea {
   border: 1px solid $color-complement-1;
   font-size: 12px;
   margin-top: 10px;
+  transition: linear 300ms;
 
   @media (min-width: 700px) {
     width: 100%;
@@ -83,6 +87,7 @@ textarea {
   padding: 10px;
   color: $color-complement-1;
   cursor: pointer;
+  transition: linear 300ms;
 
   @media (min-width: 700px) {
     grid-column: span 2;

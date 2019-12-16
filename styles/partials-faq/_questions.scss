@@ -16,23 +16,30 @@
       padding-bottom: 80px;
     }
   }
-}
-
-.questions-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-flow: row;
-  grid-gap: 20px;
-
-  @media (min-width: 700px) {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
-  }
-
-  @media (min-width: 1200px) {
-    grid-template-columns: repeat(3, 1fr);
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr;
     grid-auto-flow: row;
-    grid-gap: 40px;
+    grid-gap: 20px;
+
+    @media (min-width: 700px) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1200px) {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 40px;
+    }
+  }
+  &__read-more-btn {
+    @extend .read-more-btn;
+    display: block;
+    cursor: pointer;
+
+    @media (min-width: 700px) {
+      display: none;
+    }
   }
 }
 
@@ -47,7 +54,6 @@
   }
 
   &-paragraph {
-    // padding-bottom: 40px;
     font-size: 15px;
     line-height: 23px;
 
@@ -56,8 +62,6 @@
     }
   }
 }
-
-//question 1
 
 .questions__article1 {
   background: #ffffff;
@@ -69,39 +73,26 @@
   }
 
   @media (min-width: 1200px) {
-    margin: 0;
     grid-column: 1;
     grid-row: 1 / span 2;
     margin: 0;
   }
-}
 
-.questions__read-more-btn {
-  @extend .read-more-btn;
-  display: block;
-  cursor: pointer;
-
-  @media (min-width: 700px) {
+  &-hide {
     display: none;
+    @media (min-width: 700px) {
+      display: block;
+    }
+  }
+
+  &-container {
+    padding: 5% 10% 15% 10%;
+
+    @media (min-width: 1000px) {
+      padding: 80px 60px 0px 60px;
+    }
   }
 }
-
-.hide-article1 {
-  display: none;
-  @media (min-width: 700px) {
-    display: block;
-  }
-}
-
-.questions__article1-container {
-  padding: 5% 10% 15% 10%;
-
-  @media (min-width: 1000px) {
-    padding: 80px 60px 0px 60px;
-  }
-}
-
-//question 2
 
 .questions__article2 {
   background: #ffffff;
@@ -112,48 +103,43 @@
     grid-column: 2 / span 2;
     margin: 0;
   }
-}
+  &-container {
+    padding: 5% 10% 15% 10%;
 
-.questions__article2-container {
-  padding: 5% 10% 15% 10%;
-
-  @media (min-width: 1000px) {
-    padding: 10%;
-  }
-
-  @media (min-width: 1200px) {
-    padding: 80px;
-  }
-}
-
-.questions__article2__list {
-  padding: 10% 5%;
-  list-style: none;
-
-  @media (min-width: 700px) {
-    padding: 5%;
-  }
-
-  &-item {
-    padding: 5px;
-    font-weight: bold;
-    font-size: 15px;
-
-    &::before {
-      content: "\2022";
-      color: red;
-      font-weight: bold;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
+    @media (min-width: 1000px) {
+      padding: 10%;
     }
+    @media (min-width: 1200px) {
+      padding: 80px;
+    }
+  }
+  &__list {
+    padding: 10% 5%;
+    list-style: none;
+
     @media (min-width: 700px) {
-      font-size: 16px;
+      padding: 5%;
+    }
+
+    &-item {
+      padding: 5px;
+      font-weight: bold;
+      font-size: 15px;
+
+      &::before {
+        content: "\2022";
+        color: red;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+      @media (min-width: 700px) {
+        font-size: 16px;
+      }
     }
   }
 }
-
-//question 3
 
 .questions__article3 {
   background: #ffffff;
@@ -173,31 +159,29 @@
     grid-column: 2 / span 2;
     margin: 0;
   }
-}
-
-.questions__article3-img {
-  @include responsive-image;
-  position: absolute;
-  min-height: 300px;
-
-  @media (min-width: 1200px) {
-    grid-column: 2;
-  }
-
-  &-wrapper {
-    @include responsive-wrapper;
+  &-img {
+    @include responsive-image;
+    position: absolute;
     min-height: 300px;
 
     @media (min-width: 1200px) {
       grid-column: 2;
     }
+
+    &-wrapper {
+      @include responsive-wrapper;
+      min-height: 300px;
+
+      @media (min-width: 1200px) {
+        grid-column: 2;
+      }
+    }
   }
-}
+  &-container {
+    padding: 5% 10% 15% 10%;
 
-.questions__article3-container {
-  padding: 5% 10% 15% 10%;
-
-  @media (min-width: 1200px) {
-    padding: 30% 15% 30% 15%;
+    @media (min-width: 1200px) {
+      padding: 30% 15% 30% 15%;
+    }
   }
 }

@@ -16,7 +16,8 @@
   &__title {
     font-size: 26px;
     padding: 60px 0 20px 0;
-
+    color: $color-title-main;
+    transition: linear 300ms;
     @media (min-width: 700px) {
       font-size: 36px;
       padding-top: 80px;
@@ -33,6 +34,8 @@
     max-width: 85%;
     font-size: 16px;
     margin-bottom: 40px;
+    color: $color-complement-1;
+    transition: linear 500ms;
 
     @media (min-width: 700px) {
       max-width: 50%;
