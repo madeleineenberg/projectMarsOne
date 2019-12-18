@@ -1,10 +1,10 @@
 @import "./variables/variables";
 @import "./mixins/mixins";
-@import "./main";
-@import "./footer";
+@import "./partials-main/main";
+@import "./partials-main/footer";
+@import "./partials-main/topnav";
 
 // INDEX
-@import "./topnav";
 @import "./partials-home/header";
 @import "./partials-home/topsection";
 @import "./partials-home/aboutmars";

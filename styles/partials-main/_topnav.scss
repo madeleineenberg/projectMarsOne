@@ -5,6 +5,8 @@
   background: $background-nav-dark;
   align-items: center;
   padding: 20px 0;
+  border: 1px solid #97979746;
+  z-index: 10;
 
   @media (min-width: 700px) {
     flex-flow: row;
