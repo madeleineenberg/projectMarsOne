@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  transition: linear 200ms;
 
   @media (min-width: 1000px) {
     min-height: 320px;

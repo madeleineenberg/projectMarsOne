@@ -1,6 +1,7 @@
 .join-section {
   background: $background-light;
   padding-bottom: 10%;
+  transition: linear 500ms;
 
   @media (min-width: 1000px) {
     padding: 0% 10% 5% 10%;
@@ -18,6 +19,7 @@
     padding: 60px 0 20px 0;
     color: $color-title-main;
     transition: linear 300ms;
+
     @media (min-width: 700px) {
       font-size: 36px;
       padding-top: 80px;

@@ -6,6 +6,7 @@
     font-size: 26px;
     padding: 60px 0 30px 0;
     color: $color-complement-1;
+    transition: linear 500ms;
 
     @media (min-width: 700px) {
       font-size: 36px;
@@ -21,6 +22,7 @@
     grid-template-columns: 1fr;
     grid-auto-flow: row;
     grid-gap: 20px;
+    transition: linear 500ms;
 
     @media (min-width: 700px) {
       grid-template-columns: 1fr 1fr;
@@ -48,6 +50,7 @@
   padding-bottom: 20px;
   font-size: 20px;
   color: $color-title-main;
+  transition: linear 500ms;
 
   @media (min-width: 700px) {
     font-size: 24px;
@@ -56,6 +59,7 @@
   &-paragraph {
     font-size: 15px;
     line-height: 23px;
+    transition: linear 500ms;
 
     @media (min-width: 700px) {
       font-size: 16x;
@@ -67,6 +71,7 @@
   background: #ffffff;
   margin: 5% 5% 0% 5%;
   @include box-shadow;
+  transition: linear 500ms;
 
   @media (min-width: 700px) {
     grid-column: span 2;
@@ -87,6 +92,7 @@
 
   &-container {
     padding: 5% 10% 15% 10%;
+    transition: linear 500ms;
 
     @media (min-width: 1000px) {
       padding: 80px 60px 0px 60px;
@@ -98,6 +104,7 @@
   background: #ffffff;
   margin: 5% 5% 0% 5%;
   @include box-shadow;
+  transition: linear 500ms;
 
   @media (min-width: 1200px) {
     grid-column: 2 / span 2;
@@ -105,6 +112,7 @@
   }
   &-container {
     padding: 5% 10% 15% 10%;
+    transition: linear 500ms;
 
     @media (min-width: 1000px) {
       padding: 10%;
@@ -147,6 +155,7 @@
   grid-auto-flow: row;
   @include box-shadow;
   margin: 5% 5% 15% 5%;
+  transition: linear 500ms;
 
   @media (min-width: 700px) {
     grid-rows: span 2;
@@ -171,6 +180,7 @@
     &-wrapper {
       @include responsive-wrapper;
       min-height: 300px;
+      transition: linear 500ms;
 
       @media (min-width: 1200px) {
         grid-column: 2;
@@ -179,6 +189,7 @@
   }
   &-container {
     padding: 5% 10% 15% 10%;
+    transition: linear 500ms;
 
     @media (min-width: 1200px) {
       padding: 30% 15% 30% 15%;

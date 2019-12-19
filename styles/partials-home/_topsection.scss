@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
+    transition: linear 500ms;
 
     @media (min-width: 1200px) {
       flex-flow: row-reverse;
@@ -12,6 +13,7 @@
 
     &-text {
       padding: 15% 10%;
+      transition: linear 500ms;
 
       @media (min-width: 700px) {
         padding: 15% 10% 15% 10%;
@@ -50,9 +52,14 @@
     &-wrapper {
       @include responsive-wrapper;
       min-height: 350px;
+      transition: linear 500ms;
 
       @media (min-width: 700px) {
         min-height: 600px;
+      }
+
+      @media (min-width: 2000px) {
+        min-height: 1000px;
       }
     }
   }
