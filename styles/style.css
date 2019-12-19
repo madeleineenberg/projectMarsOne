@@ -172,8 +172,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#c15555af), to(#2402027c)), url("../../images/index/hero-1.jpg");
-  background-image: linear-gradient(to bottom, #c15555af, #2402027c), url("../../images/index/hero-1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c15555af), to(#2402027c)), url("../images/index/hero-1.jpg");
+  background-image: linear-gradient(to bottom, #c15555af, #2402027c), url("../images/index/hero-1.jpg");
   min-width: 100vw;
   min-height: 100vh;
   background-size: cover;
@@ -665,8 +665,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #c15555aa), to(#240202ad)), url("../../images/faq/hero-2.jpg");
-  background-image: linear-gradient(to bottom, #c15555aa 1%, #240202ad), url("../../images/faq/hero-2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #c15555aa), to(#240202ad)), url("../images/index/hero-1.jpg");
+  background-image: linear-gradient(to bottom, #c15555aa 1%, #240202ad), url("../images/index/hero-1.jpg");
   min-width: 100vw;
   min-height: 100vh;
   background-size: cover;
@@ -1263,8 +1263,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #240202c6), to(#c15555c9)), url("../../images/join/hero-3.jpg");
-  background-image: linear-gradient(to bottom, #240202c6 1%, #c15555c9), url("../../images/join/hero-3.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #240202c6), to(#c15555c9)), url("../images/join/hero-3.jpg");
+  background-image: linear-gradient(to bottom, #240202c6 1%, #c15555c9), url("../images/join/hero-3.jpg");
   min-width: 100vw;
   min-height: 100vh;
   background-size: cover;
