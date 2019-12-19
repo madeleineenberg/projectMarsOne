@@ -268,7 +268,7 @@ main {
 }
 
 .top-article {
-  max-width: 100wv;
+  max-width: 100vw;
 }
 
 .top-article__container {
@@ -442,7 +442,7 @@ main {
 
 @media (min-width: 700px) {
   .about-mars__article-paragraph {
-    font-size: 16x;
+    font-size: 16px;
   }
 }
 
@@ -665,8 +665,8 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #c15555aa), to(#240202ad)), url("../images/index/hero-1.jpg");
-  background-image: linear-gradient(to bottom, #c15555aa 1%, #240202ad), url("../images/index/hero-1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #c15555aa), to(#240202ad)), url("../images/faq/hero-2.jpg");
+  background-image: linear-gradient(to bottom, #c15555aa 1%, #240202ad), url("../images/faq/hero-2.jpg");
   min-width: 100vw;
   min-height: 100vh;
   background-size: cover;
@@ -841,7 +841,7 @@ main {
   }
 }
 
-.questions__article-title-paragraph {
+.questions__article-paragraph {
   font-size: 15px;
   line-height: 23px;
   -webkit-transition: linear 500ms;
@@ -849,8 +849,8 @@ main {
 }
 
 @media (min-width: 700px) {
-  .questions__article-title-paragraph {
-    font-size: 16x;
+  .questions__article-paragraph {
+    font-size: 16px;
   }
 }
 
@@ -984,7 +984,6 @@ main {
 
 @media (min-width: 700px) {
   .questions__article3 {
-    grid-rows: span 2;
     margin: 5% 5% 0% 5%;
   }
 }
